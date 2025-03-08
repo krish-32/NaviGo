@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap
+
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
