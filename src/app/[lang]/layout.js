@@ -1,7 +1,6 @@
-
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-
+import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Work_Sans } from "next/font/google";
 import ToasterProvider from "@/components/providers/ToasterProvider";
