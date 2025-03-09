@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Ignore pre-commit YAML files
+.pre-commit-config.yaml
+
+# Ignore pre-commit shell script
+setup-precommit.sh
